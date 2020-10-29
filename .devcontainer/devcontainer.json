@@ -1,0 +1,12 @@
+{
+  "name": "awscli",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "awsdev",
+  "extensions": [
+    "amazonwebservices.aws-toolkit-vscode",
+    "ms-azuretools.vscode-docker"
+  ],
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "vscode"
+}
