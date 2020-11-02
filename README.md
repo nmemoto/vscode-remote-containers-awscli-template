@@ -1,4 +1,4 @@
-# vscode-remote-containers-awscli-template
+# vscode-remote-containers-awstools-template
 
 ## Installed CLI Tools
 
