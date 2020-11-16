@@ -7,7 +7,7 @@ services:
         VARIANT: 3
         COPILOT_VERSION: v0.7.0
     volumes:
-      - ..:/workspace
+      - ..:/$PWD
       - ${HOME}/.ssh:/home/vscode/.ssh
       - ${HOME}/.aws:/home/vscode/.aws
       - /var/run/docker.sock:/var/run/docker.sock
