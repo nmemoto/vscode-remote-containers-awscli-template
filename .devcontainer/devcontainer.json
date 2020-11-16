@@ -9,5 +9,5 @@
   "shutdownAction": "stopCompose",
   "remoteUser": "vscode",
   "workspaceFolder": "${localWorkspaceFolder}",
-  "postCreateCommand": "sudo chmod 777 /var/run/docker.sock"
+  "postCreateCommand": "sudo chmod 777 /var/run/docker.sock && sudo npm i -g aws-cdk"
 }
