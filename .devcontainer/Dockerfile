@@ -1,5 +1,5 @@
 ARG VARIANT="3"
-ARG COPILOT_VERSION="v0.5.0"
+ARG COPILOT_VERSION="v0.7.0"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 ENV PIP_TARGET=/usr/local/pip-global
