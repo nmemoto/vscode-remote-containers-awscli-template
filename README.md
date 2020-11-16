@@ -8,3 +8,4 @@
 - [AWS Amplify CLI](https://aws-amplify.github.io/docs/)
 - [AWS Copilot CLI](https://aws.github.io/copilot-cli/)
 - [Amazon ECS CLI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI.html)
+- [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)

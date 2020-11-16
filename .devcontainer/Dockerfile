@@ -55,6 +55,9 @@ RUN curl -Lo /usr/local/bin/ecs-cli https://amazon-ecs-cli.s3.amazonaws.com/ecs-
 RUN curl -Lo /usr/local/bin/copilot https://github.com/aws/copilot-cli/releases/download/${COPILOT_VERSION}/copilot-linux-${COPILOT_VERSION} && \
     chmod 755 /usr/local/bin/copilot
 
+# install the latest EBCLI
+RUN pip3 install awsebcli --upgrade
+
 # clean up
 RUN apt remove -y software-properties-common gnupg2 apt-transport-https build-essential && \
     apt autoremove -y && \
