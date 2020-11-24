@@ -1,5 +1,5 @@
 {
-  "name": "awscli",
+  "name": "awstools",
   "dockerComposeFile": "docker-compose.yml",
   "service": "awsdev",
   "extensions": [

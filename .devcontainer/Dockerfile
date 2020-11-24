@@ -1,7 +1,7 @@
 ARG VARIANT="3"
-ARG COPILOT_VERSION="v0.7.0"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
+ARG COPILOT_VERSION="v1.0.0"
 ENV PIP_TARGET=/usr/local/pip-global
 ENV PYTHONPATH=${PIP_TARGET}:${PYTHONPATH}
 ENV PATH=${PIP_TARGET}/bin:${PATH}
