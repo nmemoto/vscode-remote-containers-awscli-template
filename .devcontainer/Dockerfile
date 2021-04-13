@@ -1,7 +1,7 @@
 ARG VARIANT="3"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
-ARG COPILOT_VERSION="v1.0.0"
+ARG COPILOT_VERSION="v1.4.0"
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
 # install devtools
