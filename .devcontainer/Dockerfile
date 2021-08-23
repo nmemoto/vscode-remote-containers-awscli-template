@@ -20,8 +20,8 @@ RUN  apt install -y apt-transport-https \
     apt update && \
     apt install -y docker-ce-cli
 
-# install the nodejs 12.x & npm
-RUN curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh && \
+# install the nodejs 14.x & npm
+RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh && \
     bash nodesource_setup.sh && \
     apt update && \
     apt install -y build-essential nodejs
