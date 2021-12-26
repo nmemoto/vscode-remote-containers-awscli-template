@@ -5,7 +5,7 @@ services:
       context: .
       args:
         VARIANT: 3
-        COPILOT_VERSION: v1.9.0
+        COPILOT_VERSION: v1.13.0
     volumes:
       - ..:/$PWD
       - ${HOME}/.ssh:/home/vscode/.ssh
