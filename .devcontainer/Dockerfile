@@ -42,6 +42,9 @@ RUN pip3 install aws-sam-cli --upgrade
 # install the latest AmplifyCLI
 RUN npm install -g @aws-amplify/cli
 
+# install the latest aws-sso-util
+RUN pip3 install aws-sso-util --upgrade
+
 # install the latest ECS CLI
 RUN curl -Lo /usr/local/bin/ecs-cli https://amazon-ecs-cli.s3.amazonaws.com/ecs-cli-linux-amd64-latest && \
     chmod 755 /usr/local/bin/ecs-cli
